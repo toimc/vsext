@@ -1,0 +1,26 @@
+{
+  "name": "vscode-ext-download",
+  "version": "1.0.0",
+  "main": "cli.mjs",
+  "description": "A CLI for download VSCode Extensions files, based on got, and install ext on offline use",
+  "bin": {
+    "vsext": "./cli.mjs"
+  },
+  "scripts": {
+    "dev": "nodemon index.mjs"
+  },
+  "keywords": [],
+  "author": "brian <admin@wayearn.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "got": "^13.0.0",
+    "yargs": "^17.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toimc/vsext.git"
+  }
+}
